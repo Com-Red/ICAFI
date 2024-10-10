@@ -1,0 +1,13 @@
+div{
+    font-size: 30px;
+}
+
+img{
+    width: 700px;
+    border: solid rgb(255, 0, 0) 5px;
+    margin: 10px;
+}
+
+ul li{
+    margin: 10px;
+}
