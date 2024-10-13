@@ -7,6 +7,10 @@ let data = {
     kbz:{
       name:'КБЗ',
       adres:'kbz.html'
+    },
+    kbzlid:{
+      name:'Лидеры КБЗ',
+      adres:'KBZjurnal.html'
     }
   }
 }
