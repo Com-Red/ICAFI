@@ -1,7 +1,7 @@
 import data from "./data.js";
 
 function menu(){
-  if(document.title == 'Главная'){
+  if(document.title == 'ICAFI'){
     let divMenu = document.getElementById('menu');
     divMenu.className = 'menu'
     let dataInfo = Object.keys(data.menu)
@@ -12,7 +12,7 @@ function menu(){
       
       let liMenu = document.createElement('li');
       let aMenu = document.createElement('a');
-      aMenu.href = dataInfo2[i].adres
+      aMenu.href = './pages/'+dataInfo2[i].adres
       aMenu.textContent = dataInfo2[i].name
       liMenu.appendChild(aMenu);
       ulMenu.appendChild(liMenu);
@@ -30,7 +30,7 @@ function menu(){
       
       let liMenu = document.createElement('li');
       let aMenu = document.createElement('a');
-      aMenu.href = '.'+dataInfo2[i].adres
+      aMenu.href = '../'+dataInfo2[i].adres
       aMenu.textContent = dataInfo2[i].name
       liMenu.appendChild(aMenu);
       ulMenu.appendChild(liMenu);

@@ -2,11 +2,11 @@ let data = {
   menu:{
     glavnaya:{
       name:'Главная',
-      adres:'../index.html'
+      adres:'index.html'
     },
     kbz:{
       name:'КБЗ',
-      adres:'../pages/kbz.html'
+      adres:'kbz.html'
     }
   }
 }
