@@ -12,6 +12,13 @@ let data = {
       name:'Лидеры КБЗ',
       adres:'KBZjurnal.html'
     }
+  },
+  button:{
+    age24:{
+      name:[
+        ['1','Ноябрь'],['2','Ноябрь']
+      ]
+    }
   }
 }
 

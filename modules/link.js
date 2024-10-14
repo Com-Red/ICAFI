@@ -15,4 +15,12 @@ function linkData(){
   }
 }
 
-export default linkData;
+function testhtml(){
+  let testhtml = `
+  <div id='testdiv1'>123</div>
+  `
+  let test2 = document.getElementById('osnova');
+  test2.innerHTML += testhtml
+}
+
+export {linkData, testhtml};
