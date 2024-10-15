@@ -29,8 +29,10 @@ ol li{
     background-color: rgb(47, 0, 255);
 }
 img{
-    width: 100%;
+    width: 600px;
 }
+
+
 .btn-up {
     /* фиксированное позиционирование */
     position: fixed;
