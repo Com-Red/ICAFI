@@ -37,6 +37,7 @@ function menu(){
     let aglav = document.createElement('a');
     aglav.href = '../'+dataInfo2[0].adres;
     aglav.textContent = dataInfo2[0].name;
+    liglav.id = dataInfo2[0].adres;
     liglav.appendChild(aglav);
     ulMenu.appendChild(liglav);
     for(let i=1;i<dataInfo.length;i++){
