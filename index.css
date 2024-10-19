@@ -29,7 +29,13 @@ ol li{
     background-color: rgb(47, 0, 255);
 }
 img{
-    width: 600px;
+    width: 300px;
+}
+img:active{
+    position: absolute;
+  top: 50px;
+  left: 50px;
+    width: 80%;
 }
 
 
