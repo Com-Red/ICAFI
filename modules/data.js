@@ -11,6 +11,10 @@ let data = {
     kbzlid:{
       name:'Лидеры КБЗ',
       adres:'KBZjurnal.html'
+    },
+    ivent:{
+      name:'Клановые ивенты',
+      adres:'ivent.html'
     }
   },
   button:{

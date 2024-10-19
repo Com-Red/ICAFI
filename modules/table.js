@@ -61,6 +61,8 @@ tableLiderFun()
 
 
 //--------------------------------
+
+// Сам не особо понимаю что тут происходит и как работает, но работает
 let topK = [];
 let test2 = Object.keys(data.tableLider);
 for(let i=0;i<test2.length;i++){
@@ -83,5 +85,18 @@ const maxValueV = Math.max.apply(null, topV);
 console.log(maxValueV)
 console.log(topV)
 
+let testid2 = document.querySelectorAll("[id^='itogTableK']")
 let testid = document.querySelectorAll("[id^='itogTableV']")
-console.log(testid[0])
+console.log(testid[0].textContent);
+
+for(let i=0;i<testid2.length;i++)
+  if(testid2[i].textContent == maxValueK){
+    console.log('123')
+    testid2[i].className = 'topK';
+}
+
+for(let i=0;i<testid.length;i++)
+  if(testid[i].textContent == maxValueV){
+    console.log('123')
+    testid[i].className = 'topV';
+}

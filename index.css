@@ -1,3 +1,6 @@
+body{
+  background-image: url(./image/style/fon3.jpg);
+}
 .head{
     text-align: center;
 }
@@ -28,6 +31,7 @@ ol li{
     border-left: solid 2px black;
     padding: 5px;
     color: white;
+    border-radius: 5px;
 }
 .menu li:hover{
     background-color: rgb(201, 201, 201);
@@ -44,12 +48,12 @@ img{
 }
 img:active{
     position: absolute;
-  top: 50px;
-  left: 50px;
+    top: 50px;
+    left: 50px;
     width: 80%;
 }
 table{
-  width: 40%;
+  width: 60%;
   
 }
 table tr:nth-child(2n){
@@ -67,7 +71,47 @@ table tr td{
   border-bottom: solid black 5px;
 }
 
+.divlegenda p{
+  width: 200px;
+  margin: 0;
+  border: solid 1px black;
+}
+.kbz{
+  background-color: rgb(124, 255, 163);
+}
+.lbz{
+  background-color: rgb(124, 224, 255);
+}
+.topkbz{
+  background-color: #ff0000;
+  color: white;
+}
+.toplbz{
+  background-color: #2f00ff;
+  color: white;
+}
 
+.topK{
+  background-color: #ff0000;
+  color: white;
+}
+.topV{
+  background-color: #2f00ff;
+  color: white;
+}
+
+.imgLogo{
+  width: 150px;
+}
+button{
+  background-color: rgb(112, 112, 112);
+  color: white;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
 .btn-up {
     /* фиксированное позиционирование */
     position: fixed;
