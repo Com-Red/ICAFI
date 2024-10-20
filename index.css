@@ -111,6 +111,10 @@ table tr td{
   width: 50%;
 }
 
+.aVkLogo{
+  text-align: center;
+}
+
 button{
   background-color: rgb(112, 112, 112);
   color: white;
