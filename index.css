@@ -1,5 +1,7 @@
 body{
   background-image: url(./image/style/fon3.jpg);
+  padding: 0px;
+  margin: 0px;
 }
 .head{
     text-align: center;
@@ -103,6 +105,12 @@ table tr td{
 .imgLogo{
   width: 150px;
 }
+
+.divIvent{
+  padding: 50px;
+  width: 50%;
+}
+
 button{
   background-color: rgb(112, 112, 112);
   color: white;
