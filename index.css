@@ -2,13 +2,13 @@ body{
   background-image: url(./image/style/fon3.jpg);
   padding: 0px;
   margin: 0px;
+  font-size: 20px;
 }
+
 .head{
     text-align: center;
 }
-div{
-    font-size: 20px;
-}
+
 ol li{
     margin: 10px;
 }
@@ -54,71 +54,16 @@ img:active{
     left: 50px;
     width: 80%;
 }
-table{
-  width: 60%;
-  
-}
-table tr:nth-child(2n){
-  border-bottom: solid black 10px;
-}
-table tr td{
-  border: solid 1px black;
-  text-align: center;
-}
-[id*='itogTableK']{
-  background-color: rgb(124, 255, 163);
-}
-[id*='itogTableV']{
-  background-color: rgb(124, 224, 255);
-  border-bottom: solid black 5px;
-}
-
-.divlegenda p{
-  width: 200px;
-  margin: 0;
-  border: solid 1px black;
-}
-.kbz{
-  background-color: rgb(124, 255, 163);
-}
-.lbz{
-  background-color: rgb(124, 224, 255);
-}
-.topkbz{
-  background-color: #ff0000;
-  color: white;
-}
-.toplbz{
-  background-color: #2f00ff;
-  color: white;
-}
-
-.topK{
-  background-color: #ff0000;
-  color: white;
-}
-.topV{
-  background-color: #2f00ff;
-  color: white;
-}
-
 .imgLogo{
   width: 150px;
 }
-
 .divIvent{
   padding: 50px;
   width: 50%;
 }
-
-
-
-
-
 .aVkLogo{
   text-align: center;
 }
-
 button{
   background-color: rgb(112, 112, 112);
   color: white;
@@ -154,7 +99,6 @@ button:hover{
     /* высота элемента */
     height: 50px;
   }
-  
   .btn-up::before {
     content: "";
     width: 40px;
@@ -163,11 +107,9 @@ button:hover{
     background-size: 100% 100%;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
   }
-  
   .btn-up_hide {
     display: none;
   }
-  
   @media (hover: hover) and (pointer: fine) {
     .btn-up:hover {
       background-color: #512da8; /* цвет заднего фона при наведении */

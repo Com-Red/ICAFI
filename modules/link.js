@@ -33,8 +33,7 @@ function link210(){
     }
   }
 }
-
-// 2 неделя октября
+// 3 неделя октября
 function link310(){
   if(document.title == 'КБЗ'){
     let imgMass = [1,2,3,4,5,6,7,8,9];
