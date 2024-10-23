@@ -4,21 +4,40 @@
   <meta charset="UTF-8">
   <title>КБЗ</title>
   <link rel="stylesheet" type="text/css" href="../index.css"/>
+  <link rel="stylesheet" type="text/css" href="../style/link.css"/>
 </head>
 <body>
   <div class="head">
     <h1>ICAFI</h1>
   </div>
   <div id="menu"></div>
-  <div id="btnDiv">
-    <button id="btnClear" class="btnClear">Очистить поле</button>
-    <button id="btn110" class="btntest">Октябрь 1 неделя</button>
-    <button id="btn210" class="btntest">Октябрь 2 неделя</button>
-    <button id="btn310" class="btntest">Октябрь 3 неделя</button>
+  <div id="spisok">
+    <h3>Год</h3>
+    <form>
+      <select id="age">
+        <option value="24" selected="selected">2024</option>
+      </select>
+    </form>
+    <h3>Месяц</h3>
+    <form>
+      <select id="month">
+        <option value="24" selected="selected">Октябрь</option>
+      </select>
+    </form>
+  </form>
+    <h3>Неделя</h3>
+    <form> 
+      <select id="week">
+        <option value="110">Первая</option>
+        <option value="210">Вторая</option>
+        <option value="310">Третья</option>
+        <option value="410">Четвертая</option>
+      </select>
+    </form>
+    <button id="buttest">Просмотр результатов</button>
+    <p id="pInfo"></p>
   </div>
   <div id="link"></div>
-  
-  <div class="btn-up btn-up_hide"></div>
   <script type="module" src="../index.js"></script>
   <script type="module" src="../modules/link.js"></script>
 </body>

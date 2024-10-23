@@ -1,0 +1,47 @@
+table{
+  width: 60%;
+  
+}
+table tr:nth-child(2n){
+  border-bottom: solid black 10px;
+}
+table tr td{
+  border: solid 1px black;
+  text-align: center;
+}
+[id*='itogTableK']{
+  background-color: rgb(124, 255, 163);
+}
+[id*='itogTableV']{
+  background-color: rgb(124, 224, 255);
+  border-bottom: solid black 5px;
+}
+
+.divlegenda p{
+  width: 200px;
+  margin: 0;
+  border: solid 1px black;
+}
+.kbz{
+  background-color: rgb(124, 255, 163);
+}
+.lbz{
+  background-color: rgb(124, 224, 255);
+}
+.topkbz{
+  background-color: #ff0000;
+  color: white;
+}
+.toplbz{
+  background-color: #2f00ff;
+  color: white;
+}
+
+.topK{
+  background-color: #ff0000;
+  color: white;
+}
+.topV{
+  background-color: #2f00ff;
+  color: white;
+}
