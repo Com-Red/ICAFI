@@ -1,8 +1,21 @@
 body{
-  background-image: url(./image/style/fon3.jpg);
+  background-image: url(./image/style/fon.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 0px;
   margin: 0px;
   font-size: 20px;
+}
+
+.osnova{
+  width: 80%;
+  border-radius: 25px;
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(240, 248, 255, 0.9);
+  /*background: linear-gradient(90deg, rgba(234,233,255,0.8) 0%, rgba(255,225,216,0.8) 35%, rgba(213,236,255,0.8) 100%);*/
 }
 
 .head{
