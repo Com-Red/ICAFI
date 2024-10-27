@@ -25,7 +25,7 @@ let data = {
     }
   },
   tableLider:{
-    october:{
+    
       Boy63:{
         kbz:[100,95,100,0],
         vzvod:[90,52,88,0]
@@ -90,7 +90,7 @@ let data = {
         kbz:[40,53,76,0],
         vzvod:[14,39,72,0]
       }
-    }
+    
   }
 }
 
