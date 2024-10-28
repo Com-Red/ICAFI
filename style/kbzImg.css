@@ -1,0 +1,9 @@
+img{
+    width: 300px;
+}
+img:active{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 80%;
+}

@@ -5,7 +5,7 @@ let data = {
       adres:'index.html'
     },
     kbz:{
-      name:'КБЗ',
+      name:'Отчет КБЗ',
       adres:'kbz.html'
     },
     kbzlid:{
