@@ -34,7 +34,7 @@ body{
 }
 
 #osnova{
-  background-color: rgba(240, 248, 255, 0.9);
+  background: linear-gradient(90deg, rgba(232,233,232,1) 0%, rgba(254,251,254,1) 44%, rgba(238,237,246,1) 100%);
   padding: 10px;
   border-radius: 15px;
 }
@@ -48,12 +48,13 @@ ol li{
 }
 .opis{
     text-align: center;
+    margin: 0px;
 }
 .menu{
     padding: 0px 10px 0 10px;
     text-align: center;
     font-size: 20px;
-    background-color: rgba(240, 248, 255, 0.9);
+    background: linear-gradient(90deg, rgba(232,233,232,1) 0%, rgba(254,251,254,1) 44%, rgba(238,237,246,1) 100%);
     -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
     -moz-transform: skewX(-30deg); /* Для Firefox */
     -o-transform: skewX(-30deg); /* Для Opera */
