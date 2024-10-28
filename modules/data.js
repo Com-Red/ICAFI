@@ -9,7 +9,7 @@ let data = {
       adres:'kbz.html'
     },
     kbzlid:{
-      name:'Лидеры КБЗ',
+      name:'Статистика КБЗ',
       adres:'KBZjurnal.html'
     },
     ivent:{
