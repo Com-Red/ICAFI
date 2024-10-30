@@ -19,6 +19,10 @@ let data = {
     kbzLider:{
       name:'Лидеры КБЗ',
       adres:'kbzLider.html'
+    },
+    maps:{
+      name:'Карты игры',
+      adres:'maps.html'
     }
   },
   button:{
