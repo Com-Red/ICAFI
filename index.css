@@ -22,6 +22,9 @@ body{
   margin: auto;
   text-align: right;
 }
+.socSet img{
+  width: 200px;
+}
 
 .head{
     text-align: center;

@@ -95,6 +95,18 @@ let data = {
         vzvod:[14,39,72,26]
       }
     
+  },
+  socSet: {
+    vk:{
+      name:'VK',
+      href:'https://vk.com/icafi',
+      src:'my_vk.png'
+    },
+    telegram:{
+      name:'Telegram',
+      href:'https://t.me/+7A9dBIMYLBEzNmMy',
+      src:'my_tg.png'
+    }
   }
 }
 
