@@ -63,17 +63,23 @@ tableLiderFun()
 //--------------------------------
 
 // Сам не особо понимаю что тут происходит и как работает, но работает
+// пустой массив для наполнения данными
 let topK = [];
+// получение всех ключей объекта tableLider
 let test2 = Object.keys(data.tableLider);
+// цикл перебирает данные очков КБЗ
 for(let i=0;i<test2.length;i++){
+  // получение всех элементов с id itogTableK где i это порядковый номер выданный при создании элемента
   let test = document.getElementById('itogTableK'+i);
+  // преобразование текстовой информации в числовую
   let test2 = Number(test.textContent);
+  // наполнение массива topK числовой информацией из списка itogTableK
   topK.push(test2);
 }
+// вычисление максимального числа в массиве topK
 const maxValueK = Math.max.apply(null, topK);
-console.log(maxValueK)
-console.log(topK)
 
+// аналогично предыдущему описанию
 let topV = [];
 let test3 = Object.keys(data.tableLider);
 for(let i=0;i<test2.length;i++){
@@ -82,19 +88,17 @@ for(let i=0;i<test2.length;i++){
   topV.push(test3);
 }
 const maxValueV = Math.max.apply(null, topV);
-console.log(maxValueV)
-console.log(topV)
 
+// поиск всех элементов с id itogTableK-V
 let testid2 = document.querySelectorAll("[id^='itogTableK']")
 let testid = document.querySelectorAll("[id^='itogTableV']")
-console.log(testid[0].textContent);
-
+// если один из элементов itogTableK совпадает с значением maxValueK то этому элементу присваивается класс
 for(let i=0;i<testid2.length;i++)
   if(testid2[i].textContent == maxValueK){
     console.log('123')
     testid2[i].className = 'topK';
 }
-
+// если один из элементов itogTableV совпадает с значением maxValueV то этому элементу присваивается класс
 for(let i=0;i<testid.length;i++)
   if(testid[i].textContent == maxValueV){
     console.log('123')
