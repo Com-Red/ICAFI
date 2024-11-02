@@ -36,10 +36,34 @@ body{
     padding: 0px;
 }
 
+#infoICAFI{
+  display: flex;
+  justify-content:space-around;
+}
+#infoICAFI div{
+ width: 48%; 
+}
+.infoDiv{
+  
+  background-color: #353535;
+  margin: 0 10px 0 10px;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 15px;
+}
+.infoDiv a{
+  color: #ff7a7a;
+
+}
+#infoICAFI a{
+  color: #ff7a7a;
+}
+
 #osnova{
-  background: linear-gradient(90deg, rgba(232,233,232,1) 0%, rgba(254,251,254,1) 44%, rgba(238,237,246,1) 100%);
+  /*background: linear-gradient(90deg, rgba(232,233,232,1) 0%, rgba(254,251,254,1) 44%, rgba(238,237,246,1) 100%);*/
   padding: 10px;
   border-radius: 15px;
+  background-color: #ffffffcb;
 }
 
 .head div{
