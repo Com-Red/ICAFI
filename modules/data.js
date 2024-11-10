@@ -33,6 +33,10 @@ let data = {
     }
   },
   tableLider:{
+    november2024:{
+
+    },
+    october2024:{
       Boy63:{
         kbz:[100,95,100,95],
         vzvod:[90,52,88,48]
@@ -93,6 +97,7 @@ let data = {
         kbz:[40,53,76,65],
         vzvod:[14,39,72,26]
       }
+    }
     
   },
   socSet: {
