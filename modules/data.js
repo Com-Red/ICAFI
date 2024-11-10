@@ -33,7 +33,6 @@ let data = {
     }
   },
   tableLider:{
-    
       Boy63:{
         kbz:[100,95,100,95],
         vzvod:[90,52,88,48]
