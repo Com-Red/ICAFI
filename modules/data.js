@@ -43,7 +43,7 @@ let data = {
         vzvod:[171,0,0,0]
       },
       ODuHoKuu_DeMoH:{
-        rbz:[100,0,0,0],
+        kbz:[100,0,0,0],
         vzvod:[116,0,0,0]
       },
       Hram_208:{

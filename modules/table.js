@@ -3,13 +3,13 @@ import data from "./data.js";
 let divTable = document.getElementById('table');
 let tableBlock = document.createElement('table');
 let tableCaption = document.createElement('caption');
-tableCaption.textContent = 'Таблица лидеров Октябрь';
+tableCaption.textContent = 'Таблица лидеров Ноябрь';
 tableBlock.appendChild(tableCaption);
 divTable.appendChild(tableBlock);
 function tableLiderFun(){
-  let tableLiderKey = Object.keys(data.tableLider.october2024);
+  let tableLiderKey = Object.keys(data.tableLider.november2024);
   console.log(tableLiderKey.length)
-  let tableLiderVel = Object.values(data.tableLider.october2024);
+  let tableLiderVel = Object.values(data.tableLider.november2024);
   console.log(tableLiderVel[0].kbz)
 
   // создаем строку со столбцами заголовками
@@ -69,13 +69,13 @@ function tableLiderFun(){
     // ячейки КБЗ
     for(let i=0;i<4;i++){
       let td = document.createElement('td');
-      td.textContent = data.tableLider.october2024[tableLider1].kbz[i]
+      td.textContent = data.tableLider.november2024[tableLider1].kbz[i]
       tr.appendChild(td)
     }
     // ячейки Взвода
     for(let i=0;i<4;i++){
       let td = document.createElement('td');
-      td.textContent = data.tableLider.october2024[tableLider1].vzvod[i]
+      td.textContent = data.tableLider.november2024[tableLider1].vzvod[i]
       tr2.appendChild(td)
     }
     // сумма
@@ -83,11 +83,11 @@ function tableLiderFun(){
     let sumV = 0;
     //сумма очков КБЗ
     for(let i=0;i<4;i++){
-          sumK += data.tableLider.october2024[tableLider1].kbz[i]
+          sumK += data.tableLider.november2024[tableLider1].kbz[i]
         }
     //сумма боев во взводе
     for(let i=0;i<4;i++){
-          sumV += data.tableLider.october2024[tableLider1].vzvod[i]
+          sumV += data.tableLider.november2024[tableLider1].vzvod[i]
         }
     tdsum.textContent = sumK;
     tdsum.id = 'itogTableK'+i
@@ -116,7 +116,7 @@ tableLiderFun()
 // пустой массив для наполнения данными
 let topK = [];
 // получение всех ключей объекта tableLider
-let test2 = Object.keys(data.tableLider.october2024);
+let test2 = Object.keys(data.tableLider.november2024);
 // цикл перебирает данные очков КБЗ
 for(let i=0;i<test2.length;i++){
   // получение всех элементов с id itogTableK где i это порядковый номер выданный при создании элемента
@@ -131,7 +131,7 @@ const maxValueK = Math.max.apply(null, topK);
 
 // аналогично предыдущему описанию
 let topV = [];
-let test3 = Object.keys(data.tableLider.october2024);
+let test3 = Object.keys(data.tableLider.november2024);
 for(let i=0;i<test2.length;i++){
   let test = document.getElementById('itogTableV'+i);
   let test3 = Number(test.textContent);
