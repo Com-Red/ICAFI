@@ -34,7 +34,46 @@ let data = {
   },
   tableLider:{
     november2024:{
-
+      Bereg_it:{
+        kbz:[100,0,0,0],
+        vzvod:[182,0,0,0]
+      },
+      ODETblU_B_9lHTAPb:{
+        kbz:[100,0,0,0],
+        vzvod:[171,0,0,0]
+      },
+      ODuHoKuu_DeMoH:{
+        rbz:[100,0,0,0],
+        vzvod:[116,0,0,0]
+      },
+      Hram_208:{
+        kbz:[100,0,0,0],
+        vzvod:[40,0,0,0]
+      },
+      Axel3211:{
+        kbz:[96,0,0,0],
+        vzvod:[44,0,0,0]
+      },
+      Tambovskiu_kolxoznik:{
+        kbz:[93,0,0,0],
+        vzvod:[46,0,0,0]
+      },
+      PYCCKUU_DED_:{
+        kbz:[92,0,0,0],
+        vzvod:[55,0,0,0]
+      },
+      D_i_K_A_Y_A__S_T_e_R_V_A:{
+        kbz:[87,0,0,0],
+        vzvod:[37,0,0,0]
+      },
+      idi_blije:{
+        kbz:[85,0,0,0],
+        vzvod:[57,0,0,0]
+      },
+      LordNazgard:{
+        kbz:[85,0,0,0],
+        vzvod:[27,0,0,0]
+      }
     },
     october2024:{
       Boy63:{
@@ -98,7 +137,6 @@ let data = {
         vzvod:[14,39,72,26]
       }
     }
-    
   },
   socSet: {
     vk:{
