@@ -78,19 +78,21 @@ ol li{
     margin: 0px;
 }
 .menu{
-    padding: 0px 10px 0 10px;
+    padding: 0px 10px;
     text-align: center;
     font-size: 20px;
-    background: linear-gradient(90deg, rgba(232,233,232,1) 0%, rgba(254,251,254,1) 44%, rgba(238,237,246,1) 100%);
+    background-color: #ffffffcb;
+    /*background: linear-gradient(90deg, rgba(232,233,232,1) 0%, rgba(254,251,254,1) 44%, rgba(238,237,246,1) 100%);*/
     -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
     -moz-transform: skewX(-30deg); /* Для Firefox */
     -o-transform: skewX(-30deg); /* Для Opera */
     -ms-transform: skewX(-30deg); /* Для IE */
     transform: skewX(-30deg); /* CSS3 */
-    border-radius: 15px 15px 0 0;
+    border-radius: 0 15px 0 0;
   }
 .menu ul{
     padding: 0px;
+    margin: 5px 0;
 }
 .menu li{
   display: inline-block; /* Строчно-блочные элементы */
@@ -98,6 +100,7 @@ ol li{
   border-right: 5px solid orange;
   border-bottom: 5px solid orange;
   padding: 3px;
+  
 }
 .menu li:hover{
     background-color: rgb(201, 201, 201);
