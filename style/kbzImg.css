@@ -1,9 +1,30 @@
 img{
-    width: 300px;
+    width: 100%;
+    border-radius: 15px;
 }
-img:active{
+/*img:active{
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 5%;
+    left: 5%;
     width: 80%;
+}
+#link{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 15px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+    */
+#spisok{
+    display: flex;
+    justify-content: center;
+}
+#spisok h3{
+    margin: 0px 20px;
+}
+#spisok button{
+    margin: 0px 20px;
+    height: 30px;
+    background-color: blueviolet;
 }

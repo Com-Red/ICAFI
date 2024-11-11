@@ -5,3 +5,4 @@ import socSet from "./modules/socSet.js";
 
 menu()
 socSet()
+butup()
