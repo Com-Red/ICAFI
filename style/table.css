@@ -1,6 +1,8 @@
 table{
   width: 70%;
-  
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 5px;
 }
 table tr:nth-child(2n){
   border-bottom: solid black 10px;
@@ -18,9 +20,11 @@ table tr td{
 }
 
 .divlegenda p{
-  width: 200px;
+  width: 300px;
   margin: 0;
   border: solid 1px black;
+  padding: 3px;
+
 }
 .kbz{
   background-color: rgb(124, 255, 163);
@@ -45,6 +49,10 @@ table tr td{
   background-color: #2f00ff;
   color: white;
 }
+.itog{
+  background-color: rgb(255, 0, 234);
+  color: white;
+}
 img{
   width: 20px;
 }
@@ -54,4 +62,8 @@ img{
 .tdItogOchki2{
   background-color: rgb(255, 0, 234);
   font-weight: 900;
+}
+caption{
+  font-size: 30px;
+  margin: 10px 0;
 }

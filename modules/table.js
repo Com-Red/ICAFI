@@ -12,7 +12,7 @@ function tableLiderFun(){
   let tableLiderVel = Object.values(data.tableLider.november2024);
   console.log(tableLiderVel[0].kbz)
 
-  // создаем строку со столбцами заголовками
+  // создаем шапку таблицы
   let nameStolbec = document.createElement('tr');
   let stolbecName = document.createElement('td');
   stolbecName.textContent = 'Ник игрока'
@@ -29,7 +29,7 @@ function tableLiderFun(){
   stolbecItog.textContent = 'Итог';
   let stolecOchki = document.createElement('td');
   stolecOchki.textContent = 'Очки';
-  // добавляем все ячейки в строку
+  // добавляем все ячейки в строку шапки
   nameStolbec.appendChild(stolbecName);
   nameStolbec.appendChild(stolbecIcon);
   nameStolbec.appendChild(stolbec1);
@@ -38,7 +38,7 @@ function tableLiderFun(){
   nameStolbec.appendChild(stolbec4);
   nameStolbec.appendChild(stolbecItog);
   nameStolbec.appendChild(stolecOchki);
-  //добавляем строку в таблицу
+  //добавляем строку шапки в таблицу
   tableBlock.appendChild(nameStolbec);
 
   // цикл создает строки

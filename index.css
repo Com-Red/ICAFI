@@ -55,6 +55,9 @@ body{
   color: #ff7a7a;
 
 }
+.infoDiv img{
+  width: 100%;
+}
 #infoICAFI a{
   color: #ff7a7a;
 }
