@@ -180,23 +180,4 @@ button:hover{
     }
   }
 
-  .mapsDiv{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 15px;
-    justify-content: space-evenly;
-    text-align: center;
-  }
-  .mapsDiv img{
-    width: 100%;
-    border-radius: 15px;
-  }
-  .mapsDiv div{
-    border: #cecece solid 3px;
-    background-color: #3d3d3d;
-    border-radius: 15px;
-    color: aliceblue;
-  }
-  .mapsDiv h3{
-    margin: 0px;
-  }
+  
