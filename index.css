@@ -40,21 +40,63 @@ body{
   display: flex;
   justify-content:space-around;
 }
-#infoICAFI div{
- width: 48%; 
-}
+
 .infoDiv{
-  
+  width: 48%; 
   background-color: #353535;
-  margin: 0 10px 0 10px;
+  margin: 0 10px;
   color: aliceblue;
   padding: 5px;
   border-radius: 15px;
 }
 .infoDiv a{
   color: #ff7a7a;
-
+  text-decoration: none;
 }
+.aDiv{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.6671043417366946) 9%, rgba(88,88,88,0.5970763305322129) 51%, rgba(92,92,92,0.639093137254902) 100%);
+  border: orange solid 1px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+  font-weight: 800;
+}
+.aDiv:hover{
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 9%, rgba(182,182,182,1) 51%, rgba(219,219,219,1) 100%);
+  border: rgb(0, 0, 0) solid 2px;
+  border: orange solid 1px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+  font-weight: 800;
+  color: #353535;
+}
+
+.aDivoff{
+  background: rgb(255,192,0);
+  background: linear-gradient(0deg, rgba(255,192,0,0.7371323529411764) 9%, rgba(255,178,84,0.7231267507002801) 51%, rgba(255,55,53,0.7483368347338936) 100%);
+  border: orange solid 1px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+  font-weight: 800;
+  color: #000000;
+  width: 40%;
+}
+.aDivoff:hover{
+  background: rgb(255,236,178);
+background: linear-gradient(0deg, rgba(255,236,178,0.7371323529411764) 9%, rgba(255,219,176,0.7231267507002801) 51%, rgba(255,169,168,0.7483368347338936) 100%);
+  border: orange solid 1px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+  font-weight: 800;
+  color: #000000;
+  width: 40%;
+}
+
 .infoDiv img{
   width: 100%;
 }
