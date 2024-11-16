@@ -149,7 +149,33 @@ let data = {
       href:'https://t.me/+7A9dBIMYLBEzNmMy',
       src:'my_tg.png'
     }
-  }
+  },
+  maps:[
+    ['Альпендштат', '../image/maps/alpendshtat.jpg'],
+    ['Балтийский щит', '../image/maps/baltiyskyi_shit.jpg'],
+    ['Древние пирамиды', '../image/maps/drevnie_piramidy.jpg'],
+    ['Эль Аламэйн', '../image/maps/el_alamein.jpg'],
+    ['Эллада', '../image/maps/ellada.jpg'],
+    ['Эшелон', '../image/maps/eshelon.jpg'],
+    ['Фауст', '../image/maps/fayst.jpg'],
+    ['Форт', '../image/maps/fort.jpg'],
+    ['Горящие пески', '../image/maps/goryashie_peski.jpg'],
+    ['Химмельсдорф', '../image/maps/himki.jpg'],
+    ['Жемчужный город', '../image/maps/jemchyjniy_gorod.jpg'],
+    ['Канал', '../image/maps/kanal.jpg'],
+    ['Каньон', '../image/maps/kanion.jpg'],
+    ['Кастилья', '../image/maps/kastilya.jpg'],
+    ['Мидлбург', '../image/maps/midlburg.jpg'],
+    ['Морской рубеж', '../image/maps/morscoi_rubej.jpg'],
+    ['Нормандия', '../image/maps/normandiya.jpg'],
+    ['Нью-Бэй', '../image/maps/nyu_bay.jpg'],
+    ['Порт', '../image/maps/port.jpg'],
+    ['Протока', '../image/maps/protoka.jpg'],
+    ['Виноградники', '../image/maps/vinogradnik.jpg'],
+    ['Восточная гавань', '../image/maps/vostochnaya_gavan.jpg'],
+    ['Зимняя малиновка', '../image/maps/zimnaya_malinovka.jpg'],
+    ['Золотая долина', '../image/maps/zolotaya_dolina.jpg']
+  ]
 }
 
 export default data;

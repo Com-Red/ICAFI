@@ -49,6 +49,13 @@ body{
   padding: 5px;
   border-radius: 15px;
 }
+.infoDivKBZ{
+  background-color: #353535;
+  margin: 0 10px;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 15px;
+}
 .infoDiv a{
   color: #ff7a7a;
   text-decoration: none;
@@ -83,7 +90,6 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 9%, rgba(182,182,182,1) 51
   padding: 15px;
   font-weight: 800;
   color: #000000;
-  width: 40%;
 }
 .aDivoff:hover{
   background: rgb(255,236,178);
@@ -94,7 +100,6 @@ background: linear-gradient(0deg, rgba(255,236,178,0.7371323529411764) 9%, rgba(
   padding: 15px;
   font-weight: 800;
   color: #000000;
-  width: 40%;
 }
 
 .infoDiv img{
