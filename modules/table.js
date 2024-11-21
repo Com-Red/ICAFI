@@ -101,6 +101,7 @@ function tableLiderFun(){
     let vzvodSumm = Math.floor(sumV / 10);
     let stolbecItogOchki = vzvodSumm+sumK;
     let tdItogOchki = document.createElement('td');
+    tdItogOchki.rowSpan = '2';
     tdItogOchki.textContent = stolbecItogOchki;
     tdItogOchki.id = 'tdItogOchki'+i;
     tdItogOchki.className = 'tdItogOchki'
