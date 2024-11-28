@@ -48,6 +48,7 @@ body{
   color: aliceblue;
   padding: 5px;
   border-radius: 15px;
+  
 }
 .infoDivKBZ{
   background-color: #353535;
@@ -61,19 +62,20 @@ body{
   text-decoration: none;
 }
 .aDiv{
-  background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
-  border: orange solid 1px;
-  border-radius: 15px;
+  background: rgb(65,255,0);
+  background: linear-gradient(338deg, rgba(65,255,0,1) 0%, rgba(89,255,51,1) 35%, rgba(121,255,80,1) 100%);
+  border: rgb(65,255,0,1) solid 3px;
   text-align: center;
-  padding: 15px;
+  padding: 15px; 
   font-weight: 800;
   color: #000000;
+  border-radius: 0 15px 0 15px;
 }
 .aDiv:hover{
-  background: linear-gradient(0deg, rgba(255,255,255,1) 9%, rgba(182,182,182,1) 51%, rgba(219,219,219,1) 100%);
-  border: rgb(0, 0, 0) solid 2px;
-  border: orange solid 1px;
-  border-radius: 15px;
+  background: rgb(65,255,0);
+  background: linear-gradient(338deg, rgba(65,255,0,1) 0%, rgba(89,255,51,1) 35%, rgba(121,255,80,1) 100%);
+  border: rgb(0, 0, 0) solid 3px;
+  border-radius: 0 15px 0 15px;
   text-align: center;
   padding: 15px;
   font-weight: 800;
@@ -81,19 +83,20 @@ body{
 }
 
 .aDivoff{
-  background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
-  border: orange solid 1px;
-  border-radius: 15px;
+  background: rgb(65,255,0);
+  background: linear-gradient(338deg, rgba(65,255,0,1) 0%, rgba(89,255,51,1) 35%, rgba(121,255,80,1) 100%);
+  border: rgb(65,255,0,1) solid 3px;
+  border-radius: 0 15px 0 15px;
   text-align: center;
   padding: 15px;
   font-weight: 800;
   color: #000000;
 }
 .aDivoff:hover{
-  background: rgb(255,236,178);
-  background: linear-gradient(0deg, rgba(255,236,178,0.7371323529411764) 9%, rgba(255,219,176,0.7231267507002801) 51%, rgba(255,169,168,0.7483368347338936) 100%);
-  border: orange solid 1px;
-  border-radius: 15px;
+  background: rgb(65,255,0);
+  background: linear-gradient(338deg, rgba(65,255,0,1) 0%, rgba(89,255,51,1) 35%, rgba(121,255,80,1) 100%);
+  border: rgb(0, 0, 0) solid 3px;
+  border-radius: 0 15px 0 15px;
   text-align: center;
   padding: 15px;
   font-weight: 800;
@@ -145,8 +148,8 @@ ol li{
 .menu li{
   display: inline-block; /* Строчно-блочные элементы */
   background: #353535; /* Цвет фона */
-  border-right: 5px solid orange;
-  border-bottom: 5px solid orange;
+  border-right: 5px solid rgb(65,255,0,1);
+  border-bottom: 5px solid rgb(65,255,0,1);
   padding: 3px;
   
 }

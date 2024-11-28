@@ -26,5 +26,7 @@ img{
 #spisok button{
     margin: 0px 20px;
     height: 30px;
-    background-color: blueviolet;
+    background-color: rgb(65,255,0,1);
+    border-radius: 0 15px 0 15px;
+    color: black;
 }
