@@ -8,7 +8,7 @@ let selectMonth = document.getElementById('month');
 
 let dataKBZ = [
   {
-    age:[24,25],
+    age:[2024,2025],
     title:[2024,2025]
   },
   [1,'Январь',2,'Февраль',3,'Март',4,'Апрель',5,'Май',6,'Июнь',7,'Июль',8,'Август',9,'Сентябрь',10,'Октябрь',11,'Ноябрь',12,'Декабрь',],
@@ -27,8 +27,15 @@ for(let i=0; i<dataKBZ[0].age.length; i++){
   selAgeBlock.appendChild(ageSelect);
 }
 // Устанавливает начальное значение списка по текущему году
-let testS = selAgeBlock.options[1]
-testS.setAttribute('selected', 'selected')
+
+console.log(selAgeBlock.options[0].value)
+for(let i=0; i<selAgeBlock.options.length; i++){
+  selAgeBlock.options[i].value
+  if(selAgeBlock.options[i].value == testtest.getFullYear()){
+    selAgeBlock.options.selectedIndex = i
+    break
+  }
+}
 
 // Создает список в меню выбора месяца
 let selMonBlock = document.getElementById('month');
@@ -40,6 +47,9 @@ for(let i=0; i<dataKBZ[1].length; i+=2){
   selMonBlock.appendChild(monSelect)
 }
 
+// Устанавливает начальное значение по умолчанию 
+selMonBlock.options.selectedIndex = testtest.getMonth()
+
 // Создает список в меню выбора недели
 let selWeekBlock = document.getElementById('week');
 
@@ -49,7 +59,6 @@ for(let i=0; i<dataKBZ[2].length; i+=2){
   weekSelect.textContent = dataKBZ[2][i+1];
   selWeekBlock.appendChild(weekSelect)
 }
-
 
 // Вывод скринов отчета КБЗ
 function link(){
