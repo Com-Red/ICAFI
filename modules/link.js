@@ -21,11 +21,14 @@ console.log(testtest.getFullYear())
 // Создает список в меню выбора года
 let selAgeBlock = document.getElementById('age');
 for(let i=0; i<dataKBZ[0].age.length; i++){
-let ageSelect = document.createElement('option');
-ageSelect.value = dataKBZ[0].age[i];
-ageSelect.textContent = dataKBZ[0].title[i];
-selAgeBlock.appendChild(ageSelect);
+  let ageSelect = document.createElement('option');
+  ageSelect.value = dataKBZ[0].age[i];
+  ageSelect.textContent = dataKBZ[0].title[i];
+  selAgeBlock.appendChild(ageSelect);
 }
+// Устанавливает начальное значение списка по текущему году
+let testS = selAgeBlock.options[1]
+testS.setAttribute('selected', 'selected')
 
 // Создает список в меню выбора месяца
 let selMonBlock = document.getElementById('month');
