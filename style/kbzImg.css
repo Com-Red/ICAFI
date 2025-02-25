@@ -26,7 +26,10 @@ img{
 #spisok button{
     margin: 0px 20px;
     height: 30px;
-    background-color: rgb(65,255,0,1);
+    background-color: rgb(172, 232, 243);
     border-radius: 0 15px 0 15px;
     color: black;
+}
+#spisok button:hover{
+    background-color: aqua;
 }

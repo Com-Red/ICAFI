@@ -33,6 +33,12 @@ let data = {
     }
   },
   tableLider:{
+    march2025:{
+      user:{
+        kbz:[0,0,0,0],
+        vzvod:[0,0,0,0]
+      }
+    },
     november2024:{
       Bisco:{
         kbz:[100,90,100,100],

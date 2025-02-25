@@ -62,9 +62,8 @@ body{
   text-decoration: none;
 }
 .aDiv{
-  background: rgb(65,255,0);
-  background: linear-gradient(338deg, rgba(65,255,0,1) 0%, rgba(89,255,51,1) 35%, rgba(121,255,80,1) 100%);
-  border: rgb(65,255,0,1) solid 3px;
+  background: rgb(172, 232, 243);
+  border: rgb(0, 0, 0) solid 3px;
   text-align: center;
   padding: 15px; 
   font-weight: 800;
@@ -72,8 +71,7 @@ body{
   border-radius: 0 15px 0 15px;
 }
 .aDiv:hover{
-  background: rgb(65,255,0);
-  background: linear-gradient(338deg, rgba(65,255,0,1) 0%, rgba(89,255,51,1) 35%, rgba(121,255,80,1) 100%);
+  background: rgb(66, 214, 240);
   border: rgb(0, 0, 0) solid 3px;
   border-radius: 0 15px 0 15px;
   text-align: center;
@@ -83,9 +81,8 @@ body{
 }
 
 .aDivoff{
-  background: rgb(65,255,0);
-  background: linear-gradient(338deg, rgba(65,255,0,1) 0%, rgba(89,255,51,1) 35%, rgba(121,255,80,1) 100%);
-  border: rgb(65,255,0,1) solid 3px;
+  background: rgb(172, 232, 243);
+  border: rgb(0, 0, 0) solid 1px;
   border-radius: 0 15px 0 15px;
   text-align: center;
   padding: 15px;
@@ -93,9 +90,8 @@ body{
   color: #000000;
 }
 .aDivoff:hover{
-  background: rgb(65,255,0);
-  background: linear-gradient(338deg, rgba(65,255,0,1) 0%, rgba(89,255,51,1) 35%, rgba(121,255,80,1) 100%);
-  border: rgb(0, 0, 0) solid 3px;
+  background: rgb(66, 214, 240);
+  border: rgb(0, 0, 0) solid 1px;
   border-radius: 0 15px 0 15px;
   text-align: center;
   padding: 15px;
@@ -148,8 +144,8 @@ ol li{
 .menu li{
   display: inline-block; /* Строчно-блочные элементы */
   background: #353535; /* Цвет фона */
-  border-right: 5px solid rgb(65,255,0,1);
-  border-bottom: 5px solid rgb(65,255,0,1);
+  border-right: 5px solid rgb(172, 232, 243);
+  border-bottom: 5px solid rgb(172, 232, 243);
   padding: 3px;
   
 }
