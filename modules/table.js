@@ -3,7 +3,7 @@ import data from "./data.js";
 let divTable = document.getElementById('table');
 let tableBlock = document.createElement('table');
 let tableCaption = document.createElement('caption');
-tableCaption.textContent = 'Таблица лидеров Март';
+tableCaption.textContent = 'Таблица лидеров Февраль';
 tableBlock.appendChild(tableCaption);
 divTable.appendChild(tableBlock);
 function tableLiderFun(){
