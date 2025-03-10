@@ -123,67 +123,68 @@ function tableLiderFun(){
     tdItogOchki.className = 'tdItogOchki'
     tr.appendChild(tdItogOchki);
   }
+
+  // Сам не особо понимаю что тут происходит и как работает, но работает
+  // пустой массив для наполнения данными
+  let topK = [];
+  // получение всех ключей объекта tableLider
+  let test2 = Object.keys(data.tableLider[selData]);
+  // цикл перебирает данные очков КБЗ
+  for(let i=0;i<test2.length;i++){
+    // получение всех элементов с id itogTableK где i это порядковый номер выданный при создании элемента
+    let test = document.getElementById('itogTableK'+i);
+    // преобразование текстовой информации в числовую
+    let test2 = Number(test.textContent);
+    // наполнение массива topK числовой информацией из списка itogTableK
+    topK.push(test2);
+  }
+  // вычисление максимального числа в массиве topK
+  const maxValueK = Math.max.apply(null, topK);
+
+  // аналогично предыдущему описанию
+  let topV = [];
+  let test3 = Object.keys(data.tableLider[selData]);
+  for(let i=0;i<test2.length;i++){
+    let test = document.getElementById('itogTableV'+i);
+    let test3 = Number(test.textContent);
+    topV.push(test3);
+  }
+  const maxValueV = Math.max.apply(null, topV);
+
+  // поиск всех элементов с id itogTableK-V
+  let testid2 = document.querySelectorAll("[id^='itogTableK']")
+  let testid = document.querySelectorAll("[id^='itogTableV']")
+  // если один из элементов itogTableK совпадает с значением maxValueK то этому элементу присваивается класс
+  for(let i=0;i<testid2.length;i++)
+    if(testid2[i].textContent == maxValueK){
+      testid2[i].className = 'topK';
+  }
+  // если один из элементов itogTableV совпадает с значением maxValueV то этому элементу присваивается класс
+  for(let i=0;i<testid.length;i++)
+    if(testid[i].textContent == maxValueV){
+      testid[i].className = 'topV';
+  }
+
+  // Вычисление максимального количества очков объединенных
+  let massItog = [];
+  for(let i=0; i<test2.length; i++){
+    let elemID = document.getElementById('tdItogOchki'+i);
+    let elemNumber = Number(elemID.textContent);
+    massItog.push(elemNumber);
+  }
+  const maxItog = Math.max.apply(null, massItog);
+
+  let elemIDSpisok = document.querySelectorAll("[id^='tdItogOchki']");
+  console.log(elemIDSpisok)
+
+  for(let i=0; i<elemIDSpisok.length;i++){
+    if(elemIDSpisok[i].textContent == maxItog){
+      elemIDSpisok[i].className = 'tdItogOchki2'
+    }
+  }
 }
 
 let buttest = document.getElementById('buttest')
 buttest.addEventListener('click', tableLiderFun)
+
 //--------------------------------
-
-// Сам не особо понимаю что тут происходит и как работает, но работает
-// пустой массив для наполнения данными
-let topK = [];
-// получение всех ключей объекта tableLider
-let test2 = Object.keys(data.tableLider[selData]);
-// цикл перебирает данные очков КБЗ
-for(let i=0;i<test2.length;i++){
-  // получение всех элементов с id itogTableK где i это порядковый номер выданный при создании элемента
-  let test = document.getElementById('itogTableK'+i);
-  // преобразование текстовой информации в числовую
-  let test2 = Number(test.textContent);
-  // наполнение массива topK числовой информацией из списка itogTableK
-  topK.push(test2);
-}
-// вычисление максимального числа в массиве topK
-const maxValueK = Math.max.apply(null, topK);
-
-// аналогично предыдущему описанию
-let topV = [];
-let test3 = Object.keys(data.tableLider[selData]);
-for(let i=0;i<test2.length;i++){
-  let test = document.getElementById('itogTableV'+i);
-  let test3 = Number(test.textContent);
-  topV.push(test3);
-}
-const maxValueV = Math.max.apply(null, topV);
-
-// поиск всех элементов с id itogTableK-V
-let testid2 = document.querySelectorAll("[id^='itogTableK']")
-let testid = document.querySelectorAll("[id^='itogTableV']")
-// если один из элементов itogTableK совпадает с значением maxValueK то этому элементу присваивается класс
-for(let i=0;i<testid2.length;i++)
-  if(testid2[i].textContent == maxValueK){
-    testid2[i].className = 'topK';
-}
-// если один из элементов itogTableV совпадает с значением maxValueV то этому элементу присваивается класс
-for(let i=0;i<testid.length;i++)
-  if(testid[i].textContent == maxValueV){
-    testid[i].className = 'topV';
-}
-
-// Вычисление максимального количества очков объединенных
-let massItog = [];
-for(let i=0; i<test2.length; i++){
-  let elemID = document.getElementById('tdItogOchki'+i);
-  let elemNumber = Number(elemID.textContent);
-  massItog.push(elemNumber);
-}
-const maxItog = Math.max.apply(null, massItog);
-
-let elemIDSpisok = document.querySelectorAll("[id^='tdItogOchki']");
-console.log(elemIDSpisok)
-
-for(let i=0; i<elemIDSpisok.length;i++){
-  if(elemIDSpisok[i].textContent == maxItog){
-    elemIDSpisok[i].className = 'tdItogOchki2'
-  }
-}

@@ -34,9 +34,45 @@ let data = {
   },
   tableLider:{
     march2025:{
-      KissTheWall_0:{
-        kbz:[100,33,77,33],
-        vzvod:[224,65,106,10]
+      ABTOMAT28rus:{
+        kbz:[100,0,0,0],
+        vzvod:[129,0,0,0]
+      },
+      XBATUT_2_BblCTPEJIOB:{
+        kbz:[100,0,0,0],
+        vzvod:[112,0,0,0]
+      },
+      Hram_208:{
+        kbz:[100,0,0,0],
+        vzvod:[96,0,0,0]
+      },
+      CJla6oyMue_He_Jle4uTc9l:{
+        kbz:[94,0,0,0],
+        vzvod:[101,0,0,0]
+      },
+      Bereg_Blitz:{
+        kbz:[90,0,0,0],
+        vzvod:[158,0,0,0]
+      },
+      mokki_CIGIL:{
+        kbz:[87,0,0,0],
+        vzvod:[153,0,0,0]
+      },
+      LordNazgard:{
+        kbz:[83,0,0,0],
+        vzvod:[72,0,0,0]
+      },
+      inchin125:{
+        kbz:[78,0,0,0],
+        vzvod:[35,0,0,0]
+      },
+      ODETblU_B_9lHTAPb:{
+        kbz:[76,0,0,0],
+        vzvod:[66,0,0,0]
+      },
+      CJluTO:{
+        kbz:[74,0,0,0],
+        vzvod:[67,0,0,0]
       }
     },
     february2025:{
