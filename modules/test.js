@@ -3,16 +3,32 @@ import data from "./data.js";
 let divTable = document.getElementById('table');
 let tableBlock = document.createElement('table');
 let tableCaption = document.createElement('caption');
-tableCaption.textContent = 'Таблица лидеров Октябрь';
-tableBlock.appendChild(tableCaption);
+let hDiv = document.getElementById('hDiv')
 divTable.appendChild(tableBlock);
+
 function tableLiderFun(){
-  let tableLiderKey = Object.keys(data.tableLider);
+  // чистим таблицу
+  tableBlock.innerHTML = ''
+  hDiv.innerHTML = ''
+  // находим список по месяцам и получаем текущее выбранное значение
+  let selBlock = document.getElementById('select');
+  let selIndex = selBlock.options.selectedIndex
+  let selData = selBlock.options[selIndex].value
+  let selDataH = selBlock.options[selIndex].textContent
+
+  // Устанавливаем заголовок таблицы
+  let hBlock = document.createElement('h2')
+  hBlock.textContent = 'Таблица лидеров '+selDataH +' 2025'
+  hDiv.appendChild(hBlock)
+  hBlock.style.textAlign = 'center'
+  
+  // получаем ключи объектов для заполнения таблицы
+  let tableLiderKey = Object.keys(data.tableLider[selData]);
   console.log(tableLiderKey.length)
-  let tableLiderVel = Object.values(data.tableLider);
+  let tableLiderVel = Object.values(data.tableLider[selData]);
   console.log(tableLiderVel[0].kbz)
 
-  // создаем строку со столбцами заголовками
+  // создаем шапку таблицы
   let nameStolbec = document.createElement('tr');
   let stolbecName = document.createElement('td');
   stolbecName.textContent = 'Ник игрока'
@@ -29,7 +45,7 @@ function tableLiderFun(){
   stolbecItog.textContent = 'Итог';
   let stolecOchki = document.createElement('td');
   stolecOchki.textContent = 'Очки';
-  // добавляем все ячейки в строку
+  // добавляем все ячейки в строку шапки
   nameStolbec.appendChild(stolbecName);
   nameStolbec.appendChild(stolbecIcon);
   nameStolbec.appendChild(stolbec1);
@@ -38,7 +54,7 @@ function tableLiderFun(){
   nameStolbec.appendChild(stolbec4);
   nameStolbec.appendChild(stolbecItog);
   nameStolbec.appendChild(stolecOchki);
-  //добавляем строку в таблицу
+  //добавляем строку шапки в таблицу
   tableBlock.appendChild(nameStolbec);
 
   // цикл создает строки
@@ -69,13 +85,13 @@ function tableLiderFun(){
     // ячейки КБЗ
     for(let i=0;i<4;i++){
       let td = document.createElement('td');
-      td.textContent = data.tableLider[tableLider1].kbz[i]
+      td.textContent = data.tableLider[selData][tableLider1].kbz[i]
       tr.appendChild(td)
     }
     // ячейки Взвода
     for(let i=0;i<4;i++){
       let td = document.createElement('td');
-      td.textContent = data.tableLider[tableLider1].vzvod[i]
+      td.textContent = data.tableLider[selData][tableLider1].vzvod[i]
       tr2.appendChild(td)
     }
     // сумма
@@ -83,11 +99,11 @@ function tableLiderFun(){
     let sumV = 0;
     //сумма очков КБЗ
     for(let i=0;i<4;i++){
-          sumK += data.tableLider[tableLider1].kbz[i]
+          sumK += data.tableLider[selData][tableLider1].kbz[i]
         }
     //сумма боев во взводе
     for(let i=0;i<4;i++){
-          sumV += data.tableLider[tableLider1].vzvod[i]
+          sumV += data.tableLider[selData][tableLider1].vzvod[i]
         }
     tdsum.textContent = sumK;
     tdsum.id = 'itogTableK'+i
@@ -101,22 +117,23 @@ function tableLiderFun(){
     let vzvodSumm = Math.floor(sumV / 10);
     let stolbecItogOchki = vzvodSumm+sumK;
     let tdItogOchki = document.createElement('td');
+    tdItogOchki.rowSpan = '2';
     tdItogOchki.textContent = stolbecItogOchki;
     tdItogOchki.id = 'tdItogOchki'+i;
     tdItogOchki.className = 'tdItogOchki'
     tr.appendChild(tdItogOchki);
   }
 }
-tableLiderFun()
 
-
+let buttest = document.getElementById('buttest')
+buttest.addEventListener('click', tableLiderFun)
 //--------------------------------
 
 // Сам не особо понимаю что тут происходит и как работает, но работает
 // пустой массив для наполнения данными
 let topK = [];
 // получение всех ключей объекта tableLider
-let test2 = Object.keys(data.tableLider);
+let test2 = Object.keys(data.tableLider[selData]);
 // цикл перебирает данные очков КБЗ
 for(let i=0;i<test2.length;i++){
   // получение всех элементов с id itogTableK где i это порядковый номер выданный при создании элемента
@@ -131,7 +148,7 @@ const maxValueK = Math.max.apply(null, topK);
 
 // аналогично предыдущему описанию
 let topV = [];
-let test3 = Object.keys(data.tableLider);
+let test3 = Object.keys(data.tableLider[selData]);
 for(let i=0;i<test2.length;i++){
   let test = document.getElementById('itogTableV'+i);
   let test3 = Number(test.textContent);

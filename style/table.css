@@ -67,3 +67,15 @@ caption{
   font-size: 30px;
   margin: 10px 0;
 }
+
+.tablePars{
+  display: flex;
+  justify-content:space-around;
+}
+
+.selDiv select{
+  font-size: 1em;
+}
+.selDiv button{
+  font-size: 1em;
+}

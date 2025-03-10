@@ -20,16 +20,26 @@
   </div>
   <div id="osnova"> 
     <div id="menu"></div>
-    <div class="divlegenda">
-      <p class="kbz">Сумма очков КБЗ</p>
-      <p class="lbz">Сумма боев во взводе</p>
-      <p class="topkbz">Лидер по КБЗ</p>
-      <p class="toplbz">Лидер по взводам</p>
-      <p class="itog">Лидер по очкам боевой славы</p>
+    <div class="tablePars">
+      <div class="divlegenda">
+        <p class="kbz">Сумма очков КБЗ</p>
+        <p class="lbz">Сумма боев во взводе</p>
+        <p class="topkbz">Лидер по КБЗ</p>
+        <p class="toplbz">Лидер по взводам</p>
+      </div>
+      <div class="selDiv">
+        <select id="select">
+          <option value="march2025">Март</option>
+          <option value="february2025">Февраль</option>
+          <option value="january2025">Январь</option>
+        </select>
+        <button id="buttest">Построить список</button>
+      </div>
     </div>
+    <div id="hDiv"></div>
     <div id="table"></div>
   </div>
   <script type="module" src="../index.js"></script>
-  <script type="module" src="../modules/table.js"></script>
+  <script type="module" src="../modules/test.js"></script>
 </body>
 </html>
