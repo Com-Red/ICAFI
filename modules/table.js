@@ -184,6 +184,8 @@ function tableLiderFun(){
   }
 }
 
+tableLiderFun()
+
 let buttest = document.getElementById('buttest')
 buttest.addEventListener('click', tableLiderFun)
 
