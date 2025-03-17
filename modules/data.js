@@ -35,44 +35,56 @@ let data = {
   tableLider:{
     march2025:{
       ABTOMAT28rus:{
-        kbz:[100,0,0,0],
-        vzvod:[129,0,0,0]
+        kbz:[100,97,0,0],
+        vzvod:[129,117,0,0]
       },
       XBATUT_2_BblCTPEJIOB:{
-        kbz:[100,0,0,0],
-        vzvod:[112,0,0,0]
+        kbz:[100,93,0,0],
+        vzvod:[112,91,0,0]
       },
       Hram_208:{
-        kbz:[100,0,0,0],
-        vzvod:[96,0,0,0]
+        kbz:[100,100,0,0],
+        vzvod:[96,97,0,0]
       },
       CJla6oyMue_He_Jle4uTc9l:{
-        kbz:[94,0,0,0],
-        vzvod:[101,0,0,0]
+        kbz:[94,74,0,0],
+        vzvod:[101,28,0,0]
       },
       Bereg_Blitz:{
-        kbz:[90,0,0,0],
-        vzvod:[158,0,0,0]
+        kbz:[90,49,0,0],
+        vzvod:[158,84,0,0]
       },
       mokki_CIGIL:{
-        kbz:[87,0,0,0],
-        vzvod:[153,0,0,0]
+        kbz:[87,97,0,0],
+        vzvod:[153,219,0,0]
       },
       LordNazgard:{
-        kbz:[83,0,0,0],
-        vzvod:[72,0,0,0]
+        kbz:[83,82,0,0],
+        vzvod:[72,114,0,0]
       },
       inchin125:{
-        kbz:[78,0,0,0],
-        vzvod:[35,0,0,0]
+        kbz:[78,84,0,0],
+        vzvod:[35,51,0,0]
       },
       ODETblU_B_9lHTAPb:{
-        kbz:[76,0,0,0],
-        vzvod:[66,0,0,0]
+        kbz:[76,7,0,0],
+        vzvod:[66,5,0,0]
       },
       CJluTO:{
-        kbz:[74,0,0,0],
-        vzvod:[67,0,0,0]
+        kbz:[74,74,0,0],
+        vzvod:[67,44,0,0]
+      },
+      Boy63:{
+        kbz:[60,95,0,0],
+        vzvod:[51,110,0,0]
+      },
+      BLACK_CHERRY:{
+        kbz:[59,89,0,0],
+        vzvod:[62,151,0,0]
+      },
+      KissTheWall_0:{
+        kbz:[36,80,0,0],
+        vzvod:[5,26,0,0]
       }
     },
     february2025:{
