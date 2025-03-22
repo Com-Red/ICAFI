@@ -81,10 +81,6 @@ let data = {
       BLACK_CHERRY:{
         kbz:[59,89,0,0],
         vzvod:[62,151,0,0]
-      },
-      KissTheWall_0:{
-        kbz:[36,80,0,0],
-        vzvod:[5,26,0,0]
       }
     },
     february2025:{
