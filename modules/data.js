@@ -33,6 +33,48 @@ let data = {
     }
   },
   tableLider:{
+    April2025:{
+      ABTOMAT28rus:{
+        kbz:[100,0,0,0],
+        vzvod:[191,0,0,0]
+      },
+      Hram_208:{
+        kbz:[98,0,0,0],
+        vzvod:[47,0,0,0]
+      },
+      BLACK_CHERRY:{
+        kbz:[92,0,0,0],
+        vzvod:[109,0,0,0]
+      },
+      Bereg_Blitz:{
+        kbz:[90,0,0,0],
+        vzvod:[89,0,0,0]
+      },
+      Gbulocnikov:{
+        kbz:[85,0,0,0],
+        vzvod:[101,0,0,0]
+      },
+      Nesushiy_cMePTb:{
+        kbz:[84,0,0,0],
+        vzvod:[113,0,0,0]
+      },
+      XBATUT_2_BblCTPEJIOB:{
+        kbz:[82,0,0,0],
+        vzvod:[76,0,0,0]
+      },
+      RYSSKij777:{
+        kbz:[81,0,0,0],
+        vzvod:[19,0,0,0]
+      },
+      mokki_CIGIL:{
+        kbz:[79,0,0,0],
+        vzvod:[101,0,0,0]
+      },
+      xyligan4ik28rus:{
+        kbz:[76,0,0,0],
+        vzvod:[71,0,0,0]
+      }
+    },
     march2025:{
       ABTOMAT28rus:{
         kbz:[100,97,100,92],
