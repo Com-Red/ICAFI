@@ -35,44 +35,68 @@ let data = {
   tableLider:{
     April2025:{
       ABTOMAT28rus:{
-        kbz:[100,0,0,0],
-        vzvod:[191,0,0,0]
+        kbz:[100,72,0,0],
+        vzvod:[191,69,0,0]
       },
       Hram_208:{
-        kbz:[98,0,0,0],
-        vzvod:[47,0,0,0]
+        kbz:[98,68,0,0],
+        vzvod:[47,23,0,0]
       },
       BLACK_CHERRY:{
-        kbz:[92,0,0,0],
-        vzvod:[109,0,0,0]
+        kbz:[92,73,0,0],
+        vzvod:[109,29,0,0]
       },
       Bereg_Blitz:{
-        kbz:[90,0,0,0],
-        vzvod:[89,0,0,0]
+        kbz:[90,91,0,0],
+        vzvod:[89,61,0,0]
       },
       Gbulocnikov:{
-        kbz:[85,0,0,0],
-        vzvod:[101,0,0,0]
+        kbz:[85,66,0,0],
+        vzvod:[101,32,0,0]
       },
       Nesushiy_cMePTb:{
-        kbz:[84,0,0,0],
-        vzvod:[113,0,0,0]
+        kbz:[84,63,0,0],
+        vzvod:[113,26,0,0]
       },
       XBATUT_2_BblCTPEJIOB:{
-        kbz:[82,0,0,0],
-        vzvod:[76,0,0,0]
+        kbz:[82,97,0,0],
+        vzvod:[76,87,0,0]
       },
       RYSSKij777:{
-        kbz:[81,0,0,0],
-        vzvod:[19,0,0,0]
+        kbz:[81,67,0,0],
+        vzvod:[19,7,0,0]
       },
       mokki_CIGIL:{
-        kbz:[79,0,0,0],
-        vzvod:[101,0,0,0]
+        kbz:[79,56,0,0],
+        vzvod:[101,24,0,0]
       },
       xyligan4ik28rus:{
-        kbz:[76,0,0,0],
-        vzvod:[71,0,0,0]
+        kbz:[76,34,0,0],
+        vzvod:[71,30,0,0]
+      },
+      boosrooth:{
+        kbz:[66,96,0,0],
+        vzvod:[13,25,0,0]
+      },
+      Matazu2202:{
+        kbz:[45,92,0,0],
+        vzvod:[20,44,0,0]
+      },
+      CJluTO:{
+        kbz:[51,89,0,0],
+        vzvod:[61,147,0,0]
+      },
+      CJla6oyMue_He_Jle4uTc9l:{
+        kbz:[64,85,0,0],
+        vzvod:[12,17,0,0]
+      },
+      LordNazgard:{
+        kbz:[71,79,0,0],
+        vzvod:[80,64,0,0]
+      },
+      Crookz:{
+        kbz:[58,73,0,0],
+        vzvod:[14,63,0,0]
       }
     },
     march2025:{
